@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  background: url("https://media.istockphoto.com/id/136206865/photo/royal-flush-gambling-chip.jpg?s=612x612&w=0&k=20&c=ubnNwSuBiK_6Prw1He6yEDjJkONpoyhblZWeiKHQskE=")
+    no-repeat center center/cover;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0.456);
+  color: white;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+h1 {
+  color: rgb(173, 119, 3);
+}
+
+button {
+  width: 180px;
+  height: 30px;
+  margin-bottom: 11px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+#but {
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(173, 119, 3);
+}
+
+#cut {
+  color: gold;
+  background-color: blueviolet;
+}
+
+#fut {
+  color: white;
+  background-color: rgb(255, 35, 35);
+}
+
+#but:hover {
+  background-color: rgb(215, 148, 3);
+}
+
+#cut:hover {
+  background-color: rgb(127, 16, 231);
+}
+
+#fut:hover {
+  background-color: rgb(253, 15, 15);
+}
+
+#display {
+  color: rgb(106, 241, 241);
+}
